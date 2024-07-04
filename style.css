@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: space-between;
+    background-color:  rgba(207, 244, 129, 0.5);;
+}
+
+.contactBlock,
+.navigationBlock{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.addressBlock,
+.emailBlock,
+.phoneNumberBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.imgHeader{
+    width: 26px;
+    height: 26px;
+}
+
+.textHeader{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.headerNav{
+    text-decoration: none;
+    color: #333333;
+}
+
+main{
+    padding-top: 1%;
+}
+
+.background{
+    margin-left: 1%;
+    padding-right: 3%;
+    height: 100%;
+    background-image: url(img/headerBG.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 217px;
+    padding-left: 3%;
+}
+
+.dropdownResearch {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtnResearch,
+.dropbtnConsulting {
+    color: #333333;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+}
+
+.dropbtnResearch .arrowResearch,
+.dropbtnConsulting .arrowConsulting {
+    margin-left: 8px;
+}
+
+.dropdown-contentResearch,
+.dropdown-contentConsulting {
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-top: 3px solid #7dcaeb;
+    border-radius: 19px;
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+
+.consulting {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+p{
+    font-size: 16px;
+    color: #333333;
+}
+
+.allPoints{
+    color: #40B6E9;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.mainNav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.input{
+    border: 1px solid #333333;
+    width: 200px;
+    height: 60px;
+    border-radius: 49px;
+    padding-left: 20px;
+}
+
+::placeholder{
+    color: #333333;
+}
+
+.inputBlock{
+    display: flex;
+    align-items: center;
+}
+
+.inputSearching{
+    display: flex;
+    margin-left: -20%;
+}
+
+.inputAndLangBlock{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333333;
+}
+
+.lang{
+    height: 60px;
+    width: 60px;
+    background-color: #cff481;
+    border-radius: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    
+}
